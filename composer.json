@@ -1,0 +1,20 @@
+{
+  "name": "litvinab/cli-router",
+  "type": "symfony-bundle",
+  "description": "Bundle fixes router URL generation when it used via CLI.",
+  "homepage": "https://github.com/litvinab/cli-router",
+  "authors": [
+    {
+      "name": "Anton Litvin",
+      "email": "litvinab@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "php": ">=5.5",
+    "symfony/framework-bundle": "~2.1"
+  },
+  "autoload":{
+    "psr-4": { "Litvinab\\Bundle\\CliRouterBundle\\": "" }
+  }
+}
