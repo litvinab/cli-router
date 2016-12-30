@@ -7,7 +7,7 @@ This bundle fixes URL generation by using `DependencyInjection` `Compiler`.
 
 1. add to composer.json:
 ```
-"litvinab/cli-router": "dev-master"
+"litvinab/cli-router": "v1.0"
 ```
 2. add to AppKernel.php:
 ```            
